@@ -13,8 +13,15 @@ Paste the contents of your `Polynomial.java` file into `app/src/main/java/poly/P
 ### Running Locally
 
 You can run Polytest with your Polynomial class by executing the following command from the command-line:
+
+Mac/Linux:
 ```
 ./gradlew --console plain run
+```
+
+Windows:
+```
+.\gradlew.bat --console plain run
 ```
 
 ### Running the Unit Tests
