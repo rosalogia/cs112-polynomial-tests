@@ -32,7 +32,7 @@ class AddTest {
         Node p2 = fromFile("case2_2.txt");
         Assertions
                 .assertThat(reduce(p1, p2))
-                .isEqualTo("24.0x^8 + 4.0x^6 + 15.0x^5 + 110.0x^4 + 5.0x^3 + - 6.0x + 5.0");
+                .isEqualTo("24.0x^8 + 4.0x^6 + 15.0x^5 + 110.0x^4 + 5.0x^3 + - 6.0x + 5.0".replaceAll(" ", ""));
     }
 
     @Test void testCase3() throws IOException {
